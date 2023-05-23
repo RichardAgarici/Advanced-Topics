@@ -1,0 +1,28 @@
+Exceptions : All Exceptions, are classes which have the Object class as their parent.
+
+Checked : Exceptions that should be anticipated. (like dividing to 0) (or the file doesn't exist)
+
+Unchecked : Exceptions are not because of the compiler, it's happening in the programming error.
+Examples :
+NullPointerException: if you use a null value in a return.
+ArithmeticException: if some math operation is not compatible x/0 for example.
+IllegalArgumentException : argument was not accepted.
+IndexOutOfBoundException : calling an index that doesn't exist.
+IllegalStateException : which gets thrown if you try to call a method, but it's not in the right state.
+
+Error : Indicates errors outside the Java application
+Examples :
+StackOverFlow: type of buffer overflow error that occurs when a computer program tries to use more memory space in the
+call stack than has been allocated to that stack.
+OutOfMemoryError: Occupies the entire java memory dedicated for processing the application.
+(Infinity recursions.)(broken while loop.)
+
+Exceptions Hierarchy :
+
+Throwable
+^
+Exception: Parent class for all checked exceptions   Error: pc or server errors.
+^
+RuntimeException: Unchecked exceptions (They implement the Serializable interface)
+
+

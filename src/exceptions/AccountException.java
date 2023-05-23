@@ -1,2 +1,7 @@
-package exceptions;public class AccountException {
+package exceptions;
+
+public class AccountException extends Exception{
+    public AccountException(Exception cause){
+        super(cause);
+    }
 }
