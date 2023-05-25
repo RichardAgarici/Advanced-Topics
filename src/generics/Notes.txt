@@ -1,0 +1,4 @@
+Comparable Interface :
+it's a generic interface, which means you have to specifically tell the T which class it will use.
+it has a single method
+compareTo();
