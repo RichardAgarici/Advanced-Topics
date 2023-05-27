@@ -64,8 +64,8 @@ public class Main {
 //        WildCards :
         var instructors = new GenericList<Instructor>();
         var users = new GenericList<User>();
-        Utils.printUsers(new GenericList<>()); // BOTH ARE VALID
-        Utils.printUsers(new GenericList<Instructor>());
+//        Utils.printUsers(new GenericList<>()); // BOTH ARE VALID
+//        Utils.printUsers(new GenericList<Instructor>());
 
 //======================================================================================================================
     }

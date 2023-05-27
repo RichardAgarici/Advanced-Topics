@@ -1,0 +1,18 @@
+Iterable is in the lava.lang package. it's used for loops
+
+List can access the index.
+
+Collection doesn't care about the index it's a wild box with a lot of random data. They are all sorted based on the type.
+
+Set contains no duplicates
+//======================================================================================================================
+//        Hash Table:
+//        List<Customer> customers = new ArrayList<>();
+//
+//        for (var customer : customers)
+//            if (customer.getEmail() == "e1")
+//                System.out.println("found");
+//======================================================================================================================
+
+Maps cannot use the iterable interface. Therefor we cannot use the foreach method.
+
