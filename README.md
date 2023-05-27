@@ -1,8 +1,8 @@
 #Java
 
 [#Collections
-]([collections](src%2Fcollections))
+](https://github.com/RichardAgarici/Advanced-Topics/tree/main/src/collections)
 
-[#Exceptions]([exceptions](src%2Fexceptions))
+[#Exceptions](https://github.com/RichardAgarici/Advanced-Topics/tree/main/src/exceptions)
 
-[#Generics]([generics](src%2Fgenerics))
+[#Generics](https://github.com/RichardAgarici/Advanced-Topics/tree/main/src/generics)
